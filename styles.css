@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    /* Estilo geral */
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #8dff89;
+    }
+    /* Cabeçalho */
+    header {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    header h1 {
+    font-size: 3.0em;
+    color: hwb(95 0% 52%);
+    }
+    header p {
+    font-size: 1.2em;
+    color: #177203;
+    }
+    /* Seções */
+    section {
+    margin-bottom: 20px;
+    }
+    h2 {
+    font-size: 1.8em;
+    color: rgb(1, 94, 1);
+    margin-bottom: 10px;
+    }
+    ul {
+    list-style-type: none;
+    }
+    li {
+    margin-bottom: 10px;
+    }
+    strong {
+    color: #154001;
+    }
+    em {
+    color: #397630;
+    }
+    /* Rodapé */
+    footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: hsl(92, 26%, 44%);
+    }
+    /* Responsividade */
+    @media (max-width: 768px) {
+    body {
+    padding: 10px;
+    
+    }
+    header h1 {
+    font-size: 2em;
+    }
+    h2 {
+    font-size: 1.5em;
+    }
+    }
